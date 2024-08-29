@@ -20,6 +20,7 @@
     --backgroud-hover: #c7a688;
     --backgroud-title: #754a39;
     --backgroud-btn: #754a39;
+    --backgroud-txt-card: #c7a688;
 
 
     --backgroud-footer: #221712;
@@ -53,21 +54,23 @@ h2{
     color: var(--backgroud-txt);
 }
 
+h3{
+    font-size: 18px;
+    color: var(--backgroud-txt);
+}
+
 p{
     font-size: 17px;
     color: var(--backgroud-txt);
     font-weight: 600;
 }
 
-h3{
-    font-size: 18px;
-    color: var(--backgroud-txt);
-}
-
 a{
     font-size: 16px;
     color: var(--backgroud-txt);
 }
+
+
 
 i{
     font-size: 20px;
