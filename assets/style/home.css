@@ -6,17 +6,22 @@ main{
 main .home{
     display: grid;
     padding: 60px 0;
-    position: relative;
-    background-color: var(--backgroud-header);
+    height: 700px;
+    background-image: url('../img/teste1.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 main .home .hm-content{
     margin: auto;
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 main .home .hm-content .content{
-    max-width: 65%;
+    max-width: 50%;
 }
 
 main .home .hm-content .txt{
@@ -41,9 +46,8 @@ main .home .hm-content .btn{
 main .home .hm-content .btn a {
     color: var(--backgroud-header);
     background: var(--backgroud-btn);
-    padding: 5px 15px;
-    border-radius: 20px;
-    border: 2px solid var(--backgroud-header);
+    padding: 10px 20px;
+    border-radius: 10px;
     transition: 0.5s;
 }
 
