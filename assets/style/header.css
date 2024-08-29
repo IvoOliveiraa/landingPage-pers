@@ -1,0 +1,32 @@
+/* Começo do conteúdo (nav) */
+header nav{
+    background-color: var(--backgroud-header);
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 0;
+}
+
+header #menu a{
+    margin: 0 10px;
+    font-weight: 600;
+    padding: 6px;
+    transition: 0.5s;
+}
+
+header #menu a:hover{
+    color:  var(--backgroud-hover);
+}
+
+.contact .bi{
+    margin: 0 15px;
+    transition: 0.5s;
+}
+
+.contact .bi:hover{
+    color: var(--backgroud-hover);
+}
+
+header .menu-media{
+    display: none;
+}
+/* Fim do conteúdo (nav) - continuar no @media (max-width: 768px)*/

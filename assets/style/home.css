@@ -1,0 +1,67 @@
+/*Começo - (Home)*/
+main{
+    margin: auto;
+}
+
+main .home{
+    display: grid;
+    padding: 60px 0;
+    position: relative;
+    background-color: var(--backgroud-header);
+}
+
+main .home .hm-content{
+    margin: auto;
+    display: flex;
+}
+
+main .home .hm-content .content{
+    max-width: 65%;
+}
+
+main .home .hm-content .txt{
+    text-align: center;
+}
+
+main .home .hm-content .sub-title{
+    margin-bottom: 30px;
+}
+
+main .home .hm-content .sub-txt{
+    margin-top: 20px;
+}
+
+main .home .hm-content .btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+main .home .hm-content .btn a {
+    color: var(--backgroud-header);
+    background: var(--backgroud-btn);
+    padding: 5px 15px;
+    border-radius: 20px;
+    border: 2px solid var(--backgroud-header);
+    transition: 0.5s;
+}
+
+main .home .hm-content .btn a:hover{
+    background-color: var(--backgroud-hover);
+}
+
+main .home .img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 430px;
+    margin: 0 40px;
+}
+
+main .home .img img{
+    max-width: 430px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.171);
+}
+/*Fim - (Home)*/

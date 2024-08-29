@@ -1,0 +1,39 @@
+/*Começo - (Footer)*/
+
+footer{
+    background: var(--backgroud-footer);
+}
+
+.copy{
+    padding: 12px;
+    
+}
+
+.copy p{
+    text-align: center;
+    color: var(--backgroud-txt);
+}
+
+.up{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+
+.up i{
+    color: var(--backgroud-txt);
+    background: var(--backgroud-header);
+    padding: 6px 10px;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 50px;
+    right: 90px;
+}
+
+.up .bi-whatsapp{
+    bottom: 50px;
+    right: 30px;
+}
+ 
+/*Fim - (Footer)*/

@@ -1,0 +1,313 @@
+@media (max-width: 1216px){
+    header .infos p{
+        font-size: 15px;
+    }
+
+    main .services .sv-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main .product{
+        margin-top: 50px;
+    }
+
+    footer{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 100%;
+    }
+
+    footer .info{
+        margin-top: 30px;
+    }
+
+    main .services .sv-content .services-cards{
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+
+
+@media (max-width: 1040px){
+    header .infos{
+        display: flex;
+        align-items: center;
+    }
+    header .infos .contact-info {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 0 11px;
+    }
+
+    header .infos .txt-info{
+        margin: 7px 3px;
+    }
+
+    main .home .hm-content{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    main .home .img{
+        margin-top: 20px;
+    }
+    
+
+    main .home .hm-content .content{
+        margin: 30px 0;
+        max-width: 100%;
+    }
+}
+
+
+@media (max-width: 823px){
+    main .services .sv-content .services-cards{
+        grid-template-columns: 1fr;
+    }
+}
+
+
+@media (max-width: 768px){
+    *{
+        scroll-padding-top: 70px;
+    }
+
+    h2{
+        font-size: 27px;
+    }
+
+    p{
+        font-size: 15px;
+    }
+
+    h3{
+        font-size: 16px;
+    }
+
+    /*Começo (header)*/
+    
+    
+    header #hbg{
+        display: flex;
+        right: 0;
+    }
+
+    header{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 90px;
+        z-index: 1;
+        background-color: var(--backgroud-header);
+    }
+
+    /* Começo do conteúdo (nav)*/
+    header nav{
+        position: absolute;
+        top: 100%;
+        left: -100%;
+        width: 100%;
+        padding: 200px 0;
+        background: var(--backgroud-header);
+        box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
+        transition: 0.5s;
+        transition-delay: .1s;
+        display: flex;
+        flex-direction: column;
+    }
+
+    header nav.ativar{
+        left: 0;
+        transition-delay: .1s;
+    }
+    
+    nav #menu a{
+        display: flex;
+        margin: 6px 0;
+        transform: translateX(-30rem);
+        transition: 0.5s;
+        transition-delay: .1s;
+        align-items: center;
+        justify-content: center;
+        font-weight: 600;
+    }
+
+    nav.ativar #menu a{
+        transform: translateX(0);
+        transition-delay: .1s;
+        border-bottom: transparent;
+    }
+    
+    /* Fim do conteúdo (nav)*/
+
+
+
+    /* Começo do conteúdo (menu-media)*/
+    header .menu-media{
+        display: flex;
+        justify-content: space-around;
+        padding: 20px 3px;
+    }
+
+    header .icon-media{
+        display: flex;
+    }
+
+    nav .logo{
+        display: none;
+    }
+
+    nav .contact{
+        margin-top: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    nav .contact a{
+        margin: 6px 0;
+        transform: translateX(-30rem);
+        transition: 0.5s;
+        transition-delay: .1s;
+    }
+
+    nav.ativar .contact a{
+        transform: translateX(0);
+        transition-delay: .1s;
+    }
+
+    .icon-media .contact .bi-list{
+        font-size: 27px;
+        color: var(--backgroud-txt);
+        transition: 0.5s;
+    }
+
+    .icon-media .contact .bi-list:hover{
+        color: var(--backgroud-hover);
+    }
+    /* Fim do conteúdo (header)*/
+
+    main .home{
+        padding-top: 120px;
+    }
+
+    .up i{
+        position: fixed;
+        bottom: 30px;
+        right: 30px;
+    }
+    
+    .up .bi-whatsapp{
+        bottom: 90px;
+        right: 30px;
+    }
+}
+
+
+@media (max-width: 640px){  
+
+    main .home .img img{
+        max-width: 350px;
+    }
+
+    main .services .sv-content .services-cards .card .card-txt p{
+        font-size: 15px;
+    }
+    
+    h3{
+        font-size: 17px;
+    }
+
+    h4{
+        font-size: 15px;
+    }
+
+    footer{
+        grid-template-columns: 1fr;
+    }
+
+    footer .logo{
+        margin-top: 30px;
+    }
+
+    footer .info{
+       margin-top: 30px;
+    }
+
+    footer .social-media{
+        margin: 30px 0;
+    }
+
+    .up i{
+        bottom: 30px;
+        right: 15px;
+        padding: 6px 8px;
+    }
+    
+    .up .bi-whatsapp{
+        bottom: 90px;
+        right: 15px;
+    }
+}
+
+
+@media (max-width: 482px){
+    main .home .img{
+        max-width: 280px;
+        border: transparent;
+    }
+
+    main .home .img img{
+        max-width: 280px;
+        transform: translate(0, 0);
+    }
+
+    main .home .hm-content .success .btn{
+        white-space: nowrap;
+    }
+
+    main .home .hm-content .success .info-success p{
+        white-space: nowrap;
+    }
+    
+    main .home .hm-content .success{
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 30px;
+    }
+
+    main .home .hm-content .success .border{
+        margin-top: 10px;
+    }
+    
+   
+    main .services .sv-content .services-cards .card {
+        max-width: 300px;
+    }
+
+}
+
+
+@media (max-width: 420px){
+    main .home .img{
+        max-width: 250px;
+    }
+
+    main .about .img{
+        max-width: 250px;
+    }
+    
+    header #menu a{
+        font-size: 15px;
+    }
+
+    .social{
+       margin-bottom: 30px;
+    }
+}
