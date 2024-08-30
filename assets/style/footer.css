@@ -11,7 +11,7 @@ footer{
 
 .copy p{
     text-align: center;
-    color: var(--backgroud-txt);
+    color: var(--backgroud-principal);
 }
 
 .up{
@@ -22,8 +22,8 @@ footer{
 }
 
 .up i{
-    color: var(--backgroud-txt);
-    background: var(--backgroud-header);
+    color: var(--backgroud-principal);
+    background: var(--backgroud-up);
     padding: 6px 10px;
     border-radius: 50%;
     position: fixed;

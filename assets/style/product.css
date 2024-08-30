@@ -11,24 +11,21 @@ main .product .product-cards{
 main .product .product-cards .cards{
     margin-top: 30px;
     display: grid;
-    grid-template-columns: repeat(auto-fill,300px);
-    gap: 30px;
+    grid-template-columns: repeat(auto-fit,380px);
     justify-content: center;
     align-items: center;
 }
 
 main .product .product-cards .card{
-    display: flex;
-    flex-direction: column;
-    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.171);
     border-radius: 10px;
-    border: 1px solid var(--backgroud-border);
-    width: 300px;
+    width: 350px;
+    margin: auto;
+    padding-bottom: 30px;
 }
 
 main .product .product-cards .card img{
     width: 100%;
-    border-radius: 10px 10px 0 0;
+    border-radius: 10px;
 }
 
 main .product .product-cards .card .card-txt{
