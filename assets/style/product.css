@@ -4,12 +4,8 @@ main .product{
     padding: 30px 0;
 }
 
-main .product .product-cards{
-    padding: 40px;
-}
-
 main .product .product-cards .cards{
-    margin-top: 30px;
+    margin-top: 50px;
     display: grid;
     grid-template-columns: repeat(auto-fit,380px);
     justify-content: center;

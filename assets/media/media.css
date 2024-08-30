@@ -10,10 +10,6 @@
         align-items: center;
     }
 
-    main .product{
-        margin-top: 50px;
-    }
-
     main .services .sv-content .services-cards{
         grid-template-columns: 1fr 1fr;
     }
