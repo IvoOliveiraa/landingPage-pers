@@ -43,6 +43,7 @@ main .services .sv-content .services-cards .card{
     box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.171);
     margin: auto;
     position: relative;
+    background-color: var(--backgroud-color-card);
 }
 
 main .services .sv-content .services-cards .card::before{
@@ -52,7 +53,7 @@ main .services .sv-content .services-cards .card::before{
     left: -10px;
     right: -10px;
     bottom: -10px;
-    border: 1px solid var(--backgroud-txt-card);
+    border: 1px solid var(--backgroud-color-card);
     border-radius: 10px;
 }
 

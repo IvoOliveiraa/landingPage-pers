@@ -14,13 +14,15 @@
 }
 
 :root{
-    --backgroud-header: #e6e3dc;
-    --backgroud-principal: #f2f1ed;
-    --backgroud-txt: #665b51;
-    --backgroud-hover: #c7a688;
-    --backgroud-title: #754a39;
-    --backgroud-btn: #754a39;
-    --backgroud-txt-card: #c7a688;
+    --backgroud-header: #5a6e79;
+    --backgroud-principal: #fdfeff;
+    --backgroud-secundario: #d9e4e8;
+    --backgroud-txt: #121413;
+    --backgroud-hover: #d9e4e8;
+    --backgroud-title: #5a6e79;
+    --backgroud-btn: #5a6e79;
+    --backgroud-txt-card: #d9e4e8;
+    --backgroud-color-card: #5a6e79;
     --backgroud-footer: #221712;
     --backgroud-up: #25d366;
 }
@@ -35,7 +37,7 @@ main .sub-txt{
 }
 
 h1{
-    font-size: 42px;
+    font-size: 32px;
     font-family: 'Playfair Display', serif;
     letter-spacing: 1px;
     text-align: center;
@@ -71,4 +73,10 @@ a{
 i{
     font-size: 20px;
     color: var(--backgroud-txt);
+}
+
+li{
+    color: red;
+    font-size: 16px;
+    font-weight: 600;
 }

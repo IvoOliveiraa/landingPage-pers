@@ -6,11 +6,6 @@ main{
 main .home{
     display: grid;
     padding: 60px 0;
-    height: 700px;
-    background-image: url('../img/teste1.webp');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
 }
 
 main .home .hm-content{
@@ -22,10 +17,15 @@ main .home .hm-content{
 
 main .home .hm-content .content{
     max-width: 50%;
+    padding: 30px;
 }
 
 main .home .hm-content .txt{
     text-align: center;
+}
+
+main .home .hm-content .txt h3{
+    margin: 20px 0;
 }
 
 main .home .hm-content .sub-title{
@@ -36,6 +36,12 @@ main .home .hm-content .sub-txt{
     margin-top: 20px;
 }
 
+main .home .hm-content ul{
+    list-style: none;
+    text-align: center;
+    margin: 20px 0;
+}
+
 main .home .hm-content .btn{
     display: flex;
     align-items: center;
@@ -44,27 +50,31 @@ main .home .hm-content .btn{
 }
 
 main .home .hm-content .btn a {
-    color: var(--backgroud-header);
+    color: var(--backgroud-principal);
     background: var(--backgroud-btn);
+    border: 1px solid var(--backgroud-btn);
     padding: 10px 20px;
     border-radius: 10px;
     transition: 0.5s;
+    font-weight: 600;
 }
 
 main .home .hm-content .btn a:hover{
-    background-color: var(--backgroud-hover);
+    background-color: var(--backgroud-secundario);
+    color: var(--backgroud-btn);
+    
 }
 
 main .home .img{
     display: flex;
     align-items: center;
     justify-content: center;
-    max-width: 430px;
+    max-width: 500px;
     margin: 0 40px;
 }
 
 main .home .img img{
-    max-width: 430px;
+    max-width: 500px;
     border-radius: 10px;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.171);
 }

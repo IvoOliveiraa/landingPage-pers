@@ -63,8 +63,12 @@
         scroll-padding-top: 70px;
     }
 
-    h2{
+    h1{
         font-size: 27px;
+    }
+
+    h2{
+        font-size: 25px;
     }
 
     /*Começo (header)*/
@@ -263,4 +267,9 @@
     .social{
        margin-bottom: 30px;
     }
+
+    main .home .hm-content .btn a{
+       font-size: 14px;
+    }
+
 }
