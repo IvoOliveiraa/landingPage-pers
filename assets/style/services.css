@@ -34,6 +34,7 @@ main .services .sv-content .services-cards{
 main .services .sv-content .services-cards .card{
     border: 1px solid var(--backgroud-txt-card);
     width: 250px;
+    height: 180px;
     padding: 30px;
     display: flex;
     flex-direction: column;

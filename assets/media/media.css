@@ -184,13 +184,17 @@
         bottom: 90px;
         right: 30px;
     }
+
+    main .home .img{
+        margin-top: 50px;
+    }
 }
 
 
 @media (max-width: 640px){  
 
     main .home .img img{
-        max-width: 350px;
+        max-width: 380px;
     }
  
     h3{
@@ -215,14 +219,8 @@
 
 
 @media (max-width: 482px){
-    main .home .img{
-        max-width: 280px;
-        border: transparent;
-    }
-
     main .home .img img{
-        max-width: 280px;
-        transform: translate(0, 0);
+        max-width: 300px;
     }
 
     main .home .hm-content .success .btn{
@@ -271,5 +269,4 @@
     main .home .hm-content .btn a{
        font-size: 14px;
     }
-
 }
