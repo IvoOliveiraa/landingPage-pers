@@ -62,7 +62,6 @@ main .home .hm-content .btn a {
 main .home .hm-content .btn a:hover{
     background-color: var(--backgroud-secundario);
     color: var(--backgroud-btn);
-    
 }
 
 main .home .img{
