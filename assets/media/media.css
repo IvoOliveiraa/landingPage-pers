@@ -270,3 +270,20 @@
        font-size: 14px;
     }
 }
+
+@media (max-width: 370px){
+    main .product .product-cards .card{
+        width: 330px;
+        
+    }
+
+    main .home .hm-content .btn a{
+        text-align: center;
+    }
+}
+
+@media (max-width: 340px){
+    main .product .product-cards .card{
+        width: 300px; 
+    }
+}
