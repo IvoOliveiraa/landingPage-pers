@@ -277,6 +277,11 @@
         
     }
 
+    main .product .product-cards .card img{
+        width: 330px;
+        
+    }
+
     main .home .hm-content .btn a{
         text-align: center;
     }
@@ -285,5 +290,10 @@
 @media (max-width: 340px){
     main .product .product-cards .card{
         width: 300px; 
+    }
+
+    main .product .product-cards .card img{
+        width: 300px;
+        
     }
 }

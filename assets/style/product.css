@@ -20,12 +20,13 @@ main .product .product-cards .card{
 }
 
 main .product .product-cards .card img{
-    width: 100%;
+    width: 350px;
+    height: 233px;
     border-radius: 10px;
     box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.171);
 }
 
-main .product .product-cards .card .card-txt{
-   text-align: center;
+main .product .product-cards .card-img figcaption{
+    text-align: center;
 }
 /*Fim - (Team)*/
