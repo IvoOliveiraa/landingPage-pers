@@ -14,16 +14,17 @@
 }
 
 :root{
-    --backgroud-header: #5a6e79;
+    --backgroud-header: #fdfeff;
     --backgroud-principal: #fdfeff;
-    --backgroud-secundario: #d9e4e8;
+    --backgroud-secundario: #fdfeff;
+    --background-border: #baa9a2;
     --backgroud-txt: #121413;
-    --backgroud-hover: #d9e4e8;
-    --backgroud-title: #5a6e79;
+    --backgroud-hover: #5a6e79;
+    --backgroud-title: #121413;
     --backgroud-btn: #5a6e79;
-    --backgroud-txt-card: #d9e4e8;
-    --backgroud-color-card: #5a6e79;
-    --backgroud-footer: #000;
+    --backgroud-txt-card: #121413;
+    --backgroud-color-card: #fdfeff;
+    --backgroud-footer: #5a6e79;
     --backgroud-up: #25d366;
 }
 

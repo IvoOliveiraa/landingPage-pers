@@ -3,7 +3,13 @@ header nav{
     background-color: var(--backgroud-header);
     display: flex;
     justify-content: space-around;
-    padding: 15px 0;
+    align-items: center;
+    padding: 8px 0;
+    border-bottom: 1px solid var(--background-border);
+}
+
+header img{
+    width: 180px;
 }
 
 header #menu a{
