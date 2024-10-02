@@ -24,7 +24,7 @@ footer{
 .up i{
     color: var(--backgroud-principal);
     background: var(--backgroud-up);
-    padding: 6px 10px;
+    padding: 5px 8px;
     border-radius: 50%;
     position: fixed;
     bottom: 50px;

@@ -177,12 +177,12 @@
     .up i{
         position: fixed;
         bottom: 30px;
-        right: 30px;
+        right: 20px;
     }
     
     .up .bi-whatsapp{
         bottom: 90px;
-        right: 30px;
+        right: 20px;
     }
 
     main .home .img{
@@ -203,16 +203,6 @@
 
     h4{
         font-size: 15px;
-    }
-
-    .up i{
-        bottom: 30px;
-        right: 15px;
-    }
-    
-    .up .bi-whatsapp{
-        bottom: 90px;
-        right: 15px;
     }
 }
 
