@@ -24,16 +24,23 @@ footer{
 .up i{
     color: var(--backgroud-principal);
     background: var(--backgroud-up);
-    padding: 5px 8px;
+    padding: 7px;
     border-radius: 50%;
     position: fixed;
     bottom: 50px;
     right: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
 
 .up .bi-whatsapp{
     bottom: 50px;
     right: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /*Fim - (Footer)*/
