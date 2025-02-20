@@ -32,10 +32,6 @@ body{
     background-color: var(--backgroud-principal);
 }
 
-main .sub-txt{
-    margin: auto;
-    max-width: 80%;
-}
 
 h1{
     font-size: 32px;
@@ -70,16 +66,9 @@ a{
 }
 
 
-
 i{
     font-size: 20px;
     color: var(--backgroud-txt);
-}
-
-li{
-    color: red;
-    font-size: 16px;
-    font-weight: 600;
 }
 
 figcaption{

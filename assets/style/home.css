@@ -24,22 +24,18 @@ main .home .hm-content .txt{
     text-align: center;
 }
 
-main .home .hm-content .txt h3{
+main .home .hm-content .txt p{
+    text-align: center;
     margin: 20px 0;
 }
 
 main .home .hm-content .sub-title{
-    margin-bottom: 30px;
-}
-
-main .home .hm-content .sub-txt{
-    margin-top: 20px;
-}
-
-main .home .hm-content ul{
-    list-style: none;
-    text-align: center;
     margin: 20px 0;
+}
+
+main .home .hm-content .sub-txt h3{
+    font-size: 15px;
+    color: red;
 }
 
 main .home .hm-content .btn{
