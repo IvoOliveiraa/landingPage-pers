@@ -1,0 +1,6 @@
+# Permite que todos os bots indexem todo o conteúdo
+User-agent: *
+Disallow:
+
+# Localização do Sitemap
+Sitemap: https://paulodaspersianas.com.br/sitemap.xml
