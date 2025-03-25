@@ -15,3 +15,30 @@ links.forEach(link => {
         navbar.classList.remove('ativar');
     });
 });
+
+
+//getAllCards
+const getAllCards = async() =>{
+    try{
+        const res = await fetch('produtos.json');
+        const data = await res.json();
+
+        const cards = document.querySelector(".cards");
+
+        cards.innerHTML = data.map(card => `
+
+            <div class="card">
+                <figure>
+                    <img src="${card.imagem}" alt="${card.alt}" title="${card.title}">
+                </figure>
+                <figcaption>${card.figcaption}</figcaption>
+            </div>
+        
+        `).join("");
+        
+    }catch(err){
+        throw new Error('erro ao carregar card' + err);
+    }
+}
+
+getAllCards()
