@@ -20,7 +20,7 @@ links.forEach(link => {
 //getAllCards
 const getAllCards = async() =>{
     try{
-        const res = await fetch('produtos.json');
+        const res = await fetch('/produtos.json');
         const data = await res.json();
 
         const cards = document.querySelector(".cards");
